@@ -1,0 +1,4 @@
+/home/joshua/Downloads/u-boot-2014.01_for_tiny210/spl/arch/arm/cpu/armv7/s5pc1xx/cache.o: \
+ cache.S \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/linux/linkage.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/arch/arm/include/asm/linkage.h

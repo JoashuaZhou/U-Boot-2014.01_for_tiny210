@@ -1,0 +1,1 @@
+tiny210: tiny210_config; $(MAKE)

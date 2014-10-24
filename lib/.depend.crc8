@@ -1,0 +1,2 @@
+crc8.o: crc8.c \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/linux/crc8.h

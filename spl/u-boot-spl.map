@@ -1,0 +1,491 @@
+Archive member included because of file (symbol)
+
+/opt/FriendlyARM/toolschain/4.5.1/lib/gcc/arm-none-linux-gnueabi/4.5.1/libgcc.a(_udivsi3.o)
+                              arch/arm/cpu/armv7/s5pc1xx/built-in.o (__aeabi_uidiv)
+/opt/FriendlyARM/toolschain/4.5.1/lib/gcc/arm-none-linux-gnueabi/4.5.1/libgcc.a(_dvmd_lnx.o)
+                              /opt/FriendlyARM/toolschain/4.5.1/lib/gcc/arm-none-linux-gnueabi/4.5.1/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+
+Discarded input sections
+
+ .data          0x00000000        0x0 arch/arm/cpu/armv7/start.o
+ .bss           0x00000000        0x0 arch/arm/cpu/armv7/start.o
+ .text          0x00000000        0x0 arch/arm/cpu/armv7/built-in.o
+ .text.v7_maint_dcache_all
+                0x00000000       0xf0 arch/arm/cpu/armv7/built-in.o
+ .text.v7_inval_tlb
+                0x00000000       0x1c arch/arm/cpu/armv7/built-in.o
+ .text.v7_dcache_maint_range
+                0x00000000       0xc8 arch/arm/cpu/armv7/built-in.o
+ .text.invalidate_dcache_all
+                0x00000000       0x14 arch/arm/cpu/armv7/built-in.o
+ .text.flush_dcache_all
+                0x00000000       0x14 arch/arm/cpu/armv7/built-in.o
+ .text.invalidate_dcache_range
+                0x00000000       0x24 arch/arm/cpu/armv7/built-in.o
+ .text.flush_dcache_range
+                0x00000000       0x24 arch/arm/cpu/armv7/built-in.o
+ .text.arm_init_before_mmu
+                0x00000000       0x14 arch/arm/cpu/armv7/built-in.o
+ .text.mmu_page_table_flush
+                0x00000000       0x10 arch/arm/cpu/armv7/built-in.o
+ .text.flush_cache
+                0x00000000        0x8 arch/arm/cpu/armv7/built-in.o
+ .text.invalidate_icache_all
+                0x00000000       0x18 arch/arm/cpu/armv7/built-in.o
+ .text.__v7_outer_cache_enable
+                0x00000000        0x4 arch/arm/cpu/armv7/built-in.o
+ .text.__v7_outer_cache_disable
+                0x00000000        0x4 arch/arm/cpu/armv7/built-in.o
+ .text.__v7_outer_cache_flush_all
+                0x00000000        0x4 arch/arm/cpu/armv7/built-in.o
+ .text.__v7_outer_cache_inval_all
+                0x00000000        0x4 arch/arm/cpu/armv7/built-in.o
+ .text.__v7_outer_cache_flush_range
+                0x00000000        0x4 arch/arm/cpu/armv7/built-in.o
+ .text.__v7_outer_cache_inval_range
+                0x00000000        0x4 arch/arm/cpu/armv7/built-in.o
+ .text.cpu_cache_initialization
+                0x00000000        0x4 arch/arm/cpu/armv7/built-in.o
+ .text.cleanup_before_linux
+                0x00000000       0x24 arch/arm/cpu/armv7/built-in.o
+ .text.arch_cpu_init
+                0x00000000       0x24 arch/arm/cpu/armv7/built-in.o
+ .text.get_device_type
+                0x00000000       0x10 arch/arm/cpu/armv7/built-in.o
+ .text.print_cpuinfo
+                0x00000000       0x4c arch/arm/cpu/armv7/built-in.o
+ .text.sdelay   0x00000000        0xc arch/arm/cpu/armv7/built-in.o
+ .text.sr32     0x00000000       0x24 arch/arm/cpu/armv7/built-in.o
+ .text.wait_on_value
+                0x00000000       0x34 arch/arm/cpu/armv7/built-in.o
+ .rodata.str1.1
+                0x00000000       0x7a arch/arm/cpu/armv7/built-in.o
+ .rodata.__func__.3309
+                0x00000000       0x18 arch/arm/cpu/armv7/built-in.o
+ .data          0x00000000        0x0 arch/arm/cpu/armv7/built-in.o
+ .data.s5p_cpu_id
+                0x00000000        0x4 arch/arm/cpu/armv7/built-in.o
+ .data.s5p_cpu_rev
+                0x00000000        0x4 arch/arm/cpu/armv7/built-in.o
+ .bss           0x00000000        0x0 arch/arm/cpu/armv7/built-in.o
+ .text          0x00000000       0x7c arch/arm/cpu/armv7/s5pc1xx/built-in.o
+ .text.get_pll_clk
+                0x00000000      0x148 arch/arm/cpu/armv7/s5pc1xx/built-in.o
+ .text.s5pc100_get_pclk
+                0x00000000       0x58 arch/arm/cpu/armv7/s5pc1xx/built-in.o
+ .text.s5pc110_get_pclk
+                0x00000000       0x80 arch/arm/cpu/armv7/s5pc1xx/built-in.o
+ .text.get_arm_clk
+                0x00000000       0x78 arch/arm/cpu/armv7/s5pc1xx/built-in.o
+ .text.get_pwm_clk
+                0x00000000       0x20 arch/arm/cpu/armv7/s5pc1xx/built-in.o
+ .text.get_uart_clk
+                0x00000000       0x20 arch/arm/cpu/armv7/s5pc1xx/built-in.o
+ .text.set_mmc_clk
+                0x00000000        0x4 arch/arm/cpu/armv7/s5pc1xx/built-in.o
+ .rodata.str1.1
+                0x00000000       0x16 arch/arm/cpu/armv7/s5pc1xx/built-in.o
+ .data          0x00000000        0x0 arch/arm/cpu/armv7/s5pc1xx/built-in.o
+ .bss           0x00000000        0x0 arch/arm/cpu/armv7/s5pc1xx/built-in.o
+ .text.cp_delay
+                0x00000000       0x30 arch/arm/lib/built-in.o
+ .text.cache_disable
+                0x00000000       0x44 arch/arm/lib/built-in.o
+ .text.__arm_init_before_mmu
+                0x00000000        0x4 arch/arm/lib/built-in.o
+ .text.arm_init_domains
+                0x00000000        0x4 arch/arm/lib/built-in.o
+ .text.set_section_dcache
+                0x00000000       0x14 arch/arm/lib/built-in.o
+ .text.__mmu_page_table_flush
+                0x00000000        0x4 arch/arm/lib/built-in.o
+ .text.mmu_set_region_dcache_behaviour
+                0x00000000       0x50 arch/arm/lib/built-in.o
+ .text.dram_bank_mmu_setup
+                0x00000000       0x44 arch/arm/lib/built-in.o
+ .text.cache_enable
+                0x00000000       0x78 arch/arm/lib/built-in.o
+ .text.icache_enable
+                0x00000000        0x8 arch/arm/lib/built-in.o
+ .text.icache_disable
+                0x00000000        0x8 arch/arm/lib/built-in.o
+ .text.icache_status
+                0x00000000        0xc arch/arm/lib/built-in.o
+ .text.dcache_enable
+                0x00000000        0x8 arch/arm/lib/built-in.o
+ .text.dcache_disable
+                0x00000000        0x8 arch/arm/lib/built-in.o
+ .text.dcache_status
+                0x00000000        0xc arch/arm/lib/built-in.o
+ .text.__flush_cache
+                0x00000000        0x4 arch/arm/lib/built-in.o
+ .text.__flush_dcache_all
+                0x00000000        0xc arch/arm/lib/built-in.o
+ .text.__enable_caches
+                0x00000000        0xc arch/arm/lib/built-in.o
+ .text.interrupt_init
+                0x00000000       0x1c arch/arm/lib/built-in.o
+ .text.enable_interrupts
+                0x00000000        0x4 arch/arm/lib/built-in.o
+ .text.disable_interrupts
+                0x00000000        0x8 arch/arm/lib/built-in.o
+ .text.bad_mode
+                0x00000000       0x10 arch/arm/lib/built-in.o
+ .text.show_regs
+                0x00000000      0x140 arch/arm/lib/built-in.o
+ .text.do_undefined_instruction
+                0x00000000       0x24 arch/arm/lib/built-in.o
+ .text.do_software_interrupt
+                0x00000000       0x24 arch/arm/lib/built-in.o
+ .text.do_prefetch_abort
+                0x00000000       0x24 arch/arm/lib/built-in.o
+ .text.do_data_abort
+                0x00000000       0x24 arch/arm/lib/built-in.o
+ .text.do_not_used
+                0x00000000       0x24 arch/arm/lib/built-in.o
+ .text.do_fiq   0x00000000       0x24 arch/arm/lib/built-in.o
+ .text.do_irq   0x00000000       0x24 arch/arm/lib/built-in.o
+ .text.do_reset
+                0x00000000       0x2c arch/arm/lib/built-in.o
+ .text.uart_init
+                0x00000000       0x34 arch/arm/lib/built-in.o
+ .text.putss    0x00000000       0x28 arch/arm/lib/built-in.o
+ .rodata.str1.1
+                0x00000000      0x2e5 arch/arm/lib/built-in.o
+ .rodata.C.0.4413
+                0x00000000       0x80 arch/arm/lib/built-in.o
+ .data          0x00000000       0xa0 arch/arm/lib/built-in.o
+ .bss           0x00000000        0x0 arch/arm/lib/built-in.o
+ .text.board_init
+                0x00000000       0x24 board/samsung/tiny210/built-in.o
+ .text.dram_init
+                0x00000000       0x20 board/samsung/tiny210/built-in.o
+ .text.dram_init_banksize
+                0x00000000       0x18 board/samsung/tiny210/built-in.o
+ .text.checkboard
+                0x00000000       0x18 board/samsung/tiny210/built-in.o
+ .text.board_eth_init
+                0x00000000        0x4 board/samsung/tiny210/built-in.o
+ .rodata.str1.1
+                0x00000000       0x10 board/samsung/tiny210/built-in.o
+ .data          0x00000000        0x0 board/samsung/tiny210/built-in.o
+ .bss           0x00000000        0x0 board/samsung/tiny210/built-in.o
+ .text          0x00000000        0x0 common/spl/built-in.o
+ .text.spl_board_prepare_for_linux
+                0x00000000        0x4 common/spl/built-in.o
+ .text.spl_parse_image_header
+                0x00000000       0xb4 common/spl/built-in.o
+ .text.jump_to_image_no_args
+                0x00000000        0xc common/spl/built-in.o
+ .text.board_init_r
+                0x00000000       0x10 common/spl/built-in.o
+ .text.preloader_console_init
+                0x00000000       0x38 common/spl/built-in.o
+ .rodata.str1.1
+                0x00000000       0x35 common/spl/built-in.o
+ .data          0x00000000       0x20 common/spl/built-in.o
+ .bss           0x00000000        0x0 common/spl/built-in.o
+ .bss.spl_image
+                0x00000000       0x18 common/spl/built-in.o
+ .bss.boot_params_ptr
+                0x00000000        0x4 common/spl/built-in.o
+ .text          0x00000000        0x0 /home/joshua/Downloads/u-boot-2014.01_for_tiny210/spl/arch/arm/lib/eabi_compat.o
+ .data          0x00000000        0x0 /home/joshua/Downloads/u-boot-2014.01_for_tiny210/spl/arch/arm/lib/eabi_compat.o
+ .bss           0x00000000        0x0 /home/joshua/Downloads/u-boot-2014.01_for_tiny210/spl/arch/arm/lib/eabi_compat.o
+ .text.raise    0x00000000        0x8 /home/joshua/Downloads/u-boot-2014.01_for_tiny210/spl/arch/arm/lib/eabi_compat.o
+ .text.__aeabi_unwind_cpp_pr0
+                0x00000000        0x4 /home/joshua/Downloads/u-boot-2014.01_for_tiny210/spl/arch/arm/lib/eabi_compat.o
+ .text.__aeabi_unwind_cpp_pr1
+                0x00000000        0x4 /home/joshua/Downloads/u-boot-2014.01_for_tiny210/spl/arch/arm/lib/eabi_compat.o
+ .text          0x00000000      0x20c /opt/FriendlyARM/toolschain/4.5.1/lib/gcc/arm-none-linux-gnueabi/4.5.1/libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 /opt/FriendlyARM/toolschain/4.5.1/lib/gcc/arm-none-linux-gnueabi/4.5.1/libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 /opt/FriendlyARM/toolschain/4.5.1/lib/gcc/arm-none-linux-gnueabi/4.5.1/libgcc.a(_udivsi3.o)
+ .text          0x00000000       0x10 /opt/FriendlyARM/toolschain/4.5.1/lib/gcc/arm-none-linux-gnueabi/4.5.1/libgcc.a(_dvmd_lnx.o)
+ .data          0x00000000        0x0 /opt/FriendlyARM/toolschain/4.5.1/lib/gcc/arm-none-linux-gnueabi/4.5.1/libgcc.a(_dvmd_lnx.o)
+ .bss           0x00000000        0x0 /opt/FriendlyARM/toolschain/4.5.1/lib/gcc/arm-none-linux-gnueabi/4.5.1/libgcc.a(_dvmd_lnx.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x00000000                . = 0x0
+                0x00000000                . = ALIGN (0x4)
+
+.text           0x00000000      0x564
+                0x00000000                __image_copy_start = .
+ arch/arm/cpu/armv7/start.o(.text*)
+ .text          0x00000000       0xf0 arch/arm/cpu/armv7/start.o
+                0x00000000                _start
+                0x00000040                _end_vect
+                0x00000040                _TEXT_BASE
+                0x00000044                _bss_start_ofs
+                0x00000048                _bss_end_ofs
+                0x0000004c                _end_ofs
+                0x00000050                IRQ_STACK_START_IN
+                0x00000090                c_runtime_cpu_setup
+                0x000000a8                save_boot_params
+                0x000000ac                cpu_init_cp15
+                0x000000e4                cpu_init_crit
+ *(.text*)
+ .text          0x000000f0       0x1c arch/arm/lib/built-in.o
+                0x000000f0                _main
+ .text.putc     0x0000010c       0x20 arch/arm/lib/built-in.o
+                0x0000010c                putc
+ .text.copy_uboot_to_ram
+                0x0000012c       0xac arch/arm/lib/built-in.o
+                0x0000012c                copy_uboot_to_ram
+ .text.board_init_f
+                0x000001d8       0x14 arch/arm/lib/built-in.o
+                0x000001d8                board_init_f
+ .text          0x000001ec      0x378 board/samsung/tiny210/built-in.o
+                0x000001f0                lowlevel_init
+                0x0000034c                mem_ctrl_asm_init
+
+.glue_7         0x00000564        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x00000564        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x00000564        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00000564        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+                0x00000564                . = ALIGN (0x4)
+
+.rodata
+ *(SORT(.rodata*))
+                0x00000564                . = ALIGN (0x4)
+
+.data
+ *(.data*)
+                0x00000564                . = ALIGN (0x4)
+                0x00000564                . = .
+                0x00000564                __image_copy_end = .
+
+.rel.dyn        0x00000564        0x0
+                0x00000564                __rel_dyn_start = .
+ *(.rel*)
+                0x00000564                __rel_dyn_end = .
+                0x00000564                _end = .
+
+.bss            0x00000564        0x0
+                0x00000564                __bss_start = .
+ *(.bss*)
+                0x00000564                . = ALIGN (0x4)
+                0x00000564                __bss_end = .
+
+.dynsym
+ *(.dynsym)
+
+.dynbss
+ *(.dynbss)
+
+.dynstr
+ *(.dynstr*)
+
+.dynamic
+ *(.dynamic*)
+
+.hash
+ *(.hash*)
+
+.plt
+ *(.plt*)
+
+.interp
+ *(.interp*)
+
+.gnu
+ *(.gnu*)
+
+.ARM.exidx
+ *(.ARM.exidx*)
+LOAD arch/arm/cpu/armv7/start.o
+START GROUP
+LOAD arch/arm/cpu/armv7/built-in.o
+LOAD arch/arm/cpu/armv7/s5pc1xx/built-in.o
+LOAD arch/arm/cpu/built-in.o
+LOAD arch/arm/lib/built-in.o
+LOAD board/samsung/tiny210/built-in.o
+LOAD common/spl/built-in.o
+LOAD fs/built-in.o
+END GROUP
+LOAD /home/joshua/Downloads/u-boot-2014.01_for_tiny210/spl/arch/arm/lib/eabi_compat.o
+LOAD /opt/FriendlyARM/toolschain/4.5.1/lib/gcc/arm-none-linux-gnueabi/4.5.1/libgcc.a
+OUTPUT(u-boot-spl elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x2b
+ .ARM.attributes
+                0x00000000       0x1f arch/arm/cpu/armv7/start.o
+ .ARM.attributes
+                0x0000001f       0x2d arch/arm/cpu/armv7/built-in.o
+ .ARM.attributes
+                0x0000004c       0x2b arch/arm/cpu/armv7/s5pc1xx/built-in.o
+ .ARM.attributes
+                0x00000077       0x2d arch/arm/lib/built-in.o
+ .ARM.attributes
+                0x000000a4       0x2b board/samsung/tiny210/built-in.o
+ .ARM.attributes
+                0x000000cf       0x2d common/spl/built-in.o
+ .ARM.attributes
+                0x000000fc       0x2d /home/joshua/Downloads/u-boot-2014.01_for_tiny210/spl/arch/arm/lib/eabi_compat.o
+ .ARM.attributes
+                0x00000129       0x28 /opt/FriendlyARM/toolschain/4.5.1/lib/gcc/arm-none-linux-gnueabi/4.5.1/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000151       0x28 /opt/FriendlyARM/toolschain/4.5.1/lib/gcc/arm-none-linux-gnueabi/4.5.1/libgcc.a(_dvmd_lnx.o)
+
+.note.GNU-stack
+                0x00000000        0x0
+ .note.GNU-stack
+                0x00000000        0x0 arch/arm/cpu/armv7/built-in.o
+ .note.GNU-stack
+                0x00000000        0x0 arch/arm/cpu/armv7/s5pc1xx/built-in.o
+ .note.GNU-stack
+                0x00000000        0x0 arch/arm/lib/built-in.o
+ .note.GNU-stack
+                0x00000000        0x0 board/samsung/tiny210/built-in.o
+ .note.GNU-stack
+                0x00000000        0x0 common/spl/built-in.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/joshua/Downloads/u-boot-2014.01_for_tiny210/spl/arch/arm/lib/eabi_compat.o
+ .note.GNU-stack
+                0x00000000        0x0 /opt/FriendlyARM/toolschain/4.5.1/lib/gcc/arm-none-linux-gnueabi/4.5.1/libgcc.a(_udivsi3.o)
+ .note.GNU-stack
+                0x00000000        0x0 /opt/FriendlyARM/toolschain/4.5.1/lib/gcc/arm-none-linux-gnueabi/4.5.1/libgcc.a(_dvmd_lnx.o)
+
+.comment        0x00000000       0x1b
+ .comment       0x00000000       0x1b arch/arm/cpu/armv7/built-in.o
+                                 0x70 (size before relaxing)
+ .comment       0x00000000       0x1c arch/arm/cpu/armv7/s5pc1xx/built-in.o
+ .comment       0x00000000       0x8c arch/arm/lib/built-in.o
+ .comment       0x00000000       0x1c board/samsung/tiny210/built-in.o
+ .comment       0x00000000       0x1c common/spl/built-in.o
+ .comment       0x00000000       0x1c /home/joshua/Downloads/u-boot-2014.01_for_tiny210/spl/arch/arm/lib/eabi_compat.o
+
+.debug_line     0x00000000     0x2116
+ .debug_line    0x00000000       0x73 arch/arm/cpu/armv7/start.o
+ .debug_line    0x00000073      0x810 arch/arm/cpu/armv7/built-in.o
+ .debug_line    0x00000883      0x370 arch/arm/cpu/armv7/s5pc1xx/built-in.o
+ .debug_line    0x00000bf3      0xc62 arch/arm/lib/built-in.o
+ .debug_line    0x00001855      0x35e board/samsung/tiny210/built-in.o
+ .debug_line    0x00001bb3      0x2b0 common/spl/built-in.o
+ .debug_line    0x00001e63      0x194 /home/joshua/Downloads/u-boot-2014.01_for_tiny210/spl/arch/arm/lib/eabi_compat.o
+ .debug_line    0x00001ff7       0x9e /opt/FriendlyARM/toolschain/4.5.1/lib/gcc/arm-none-linux-gnueabi/4.5.1/libgcc.a(_udivsi3.o)
+ .debug_line    0x00002095       0x81 /opt/FriendlyARM/toolschain/4.5.1/lib/gcc/arm-none-linux-gnueabi/4.5.1/libgcc.a(_dvmd_lnx.o)
+
+.debug_info     0x00000000     0x5b8e
+ .debug_info    0x00000000       0x75 arch/arm/cpu/armv7/start.o
+ .debug_info    0x00000075     0x15c5 arch/arm/cpu/armv7/built-in.o
+ .debug_info    0x0000163a     0x10f2 arch/arm/cpu/armv7/s5pc1xx/built-in.o
+ .debug_info    0x0000272c     0x1fbe arch/arm/lib/built-in.o
+ .debug_info    0x000046ea      0x6c0 board/samsung/tiny210/built-in.o
+ .debug_info    0x00004daa      0x909 common/spl/built-in.o
+ .debug_info    0x000056b3      0x341 /home/joshua/Downloads/u-boot-2014.01_for_tiny210/spl/arch/arm/lib/eabi_compat.o
+ .debug_info    0x000059f4       0xcd /opt/FriendlyARM/toolschain/4.5.1/lib/gcc/arm-none-linux-gnueabi/4.5.1/libgcc.a(_udivsi3.o)
+ .debug_info    0x00005ac1       0xcd /opt/FriendlyARM/toolschain/4.5.1/lib/gcc/arm-none-linux-gnueabi/4.5.1/libgcc.a(_dvmd_lnx.o)
+
+.debug_abbrev   0x00000000     0x17b7
+ .debug_abbrev  0x00000000       0x14 arch/arm/cpu/armv7/start.o
+ .debug_abbrev  0x00000014      0x6f7 arch/arm/cpu/armv7/built-in.o
+ .debug_abbrev  0x0000070b      0x320 arch/arm/cpu/armv7/s5pc1xx/built-in.o
+ .debug_abbrev  0x00000a2b      0x86d arch/arm/lib/built-in.o
+ .debug_abbrev  0x00001298      0x1ba board/samsung/tiny210/built-in.o
+ .debug_abbrev  0x00001452      0x225 common/spl/built-in.o
+ .debug_abbrev  0x00001677      0x118 /home/joshua/Downloads/u-boot-2014.01_for_tiny210/spl/arch/arm/lib/eabi_compat.o
+ .debug_abbrev  0x0000178f       0x14 /opt/FriendlyARM/toolschain/4.5.1/lib/gcc/arm-none-linux-gnueabi/4.5.1/libgcc.a(_udivsi3.o)
+ .debug_abbrev  0x000017a3       0x14 /opt/FriendlyARM/toolschain/4.5.1/lib/gcc/arm-none-linux-gnueabi/4.5.1/libgcc.a(_dvmd_lnx.o)
+
+.debug_aranges  0x00000000      0x4c0
+ .debug_aranges
+                0x00000000       0x20 arch/arm/cpu/armv7/start.o
+ .debug_aranges
+                0x00000020      0x128 arch/arm/cpu/armv7/built-in.o
+ .debug_aranges
+                0x00000148       0x90 arch/arm/cpu/armv7/s5pc1xx/built-in.o
+ .debug_aranges
+                0x000001d8      0x1b8 arch/arm/lib/built-in.o
+ .debug_aranges
+                0x00000390       0x80 board/samsung/tiny210/built-in.o
+ .debug_aranges
+                0x00000410       0x40 common/spl/built-in.o
+ .debug_aranges
+                0x00000450       0x30 /home/joshua/Downloads/u-boot-2014.01_for_tiny210/spl/arch/arm/lib/eabi_compat.o
+ .debug_aranges
+                0x00000480       0x20 /opt/FriendlyARM/toolschain/4.5.1/lib/gcc/arm-none-linux-gnueabi/4.5.1/libgcc.a(_udivsi3.o)
+ .debug_aranges
+                0x000004a0       0x20 /opt/FriendlyARM/toolschain/4.5.1/lib/gcc/arm-none-linux-gnueabi/4.5.1/libgcc.a(_dvmd_lnx.o)
+
+.debug_pubnames
+                0x00000000      0x747
+ .debug_pubnames
+                0x00000000      0x271 arch/arm/cpu/armv7/built-in.o
+ .debug_pubnames
+                0x00000271       0x63 arch/arm/cpu/armv7/s5pc1xx/built-in.o
+ .debug_pubnames
+                0x000002d4      0x2f6 arch/arm/lib/built-in.o
+ .debug_pubnames
+                0x000005ca       0x6f board/samsung/tiny210/built-in.o
+ .debug_pubnames
+                0x00000639       0xbc common/spl/built-in.o
+ .debug_pubnames
+                0x000006f5       0x52 /home/joshua/Downloads/u-boot-2014.01_for_tiny210/spl/arch/arm/lib/eabi_compat.o
+
+.debug_frame    0x00000000      0x784
+ .debug_frame   0x00000000      0x254 arch/arm/cpu/armv7/built-in.o
+ .debug_frame   0x00000254       0xa8 arch/arm/cpu/armv7/s5pc1xx/built-in.o
+ .debug_frame   0x000002fc      0x340 arch/arm/lib/built-in.o
+ .debug_frame   0x0000063c       0x70 board/samsung/tiny210/built-in.o
+ .debug_frame   0x000006ac       0x78 common/spl/built-in.o
+ .debug_frame   0x00000724       0x40 /home/joshua/Downloads/u-boot-2014.01_for_tiny210/spl/arch/arm/lib/eabi_compat.o
+ .debug_frame   0x00000764       0x20 /opt/FriendlyARM/toolschain/4.5.1/lib/gcc/arm-none-linux-gnueabi/4.5.1/libgcc.a(_udivsi3.o)
+
+.debug_str      0x00000000     0x1077
+ .debug_str     0x00000000      0x578 arch/arm/cpu/armv7/built-in.o
+                                0xc4d (size before relaxing)
+ .debug_str     0x00000578      0x30c arch/arm/cpu/armv7/s5pc1xx/built-in.o
+                                0x526 (size before relaxing)
+ .debug_str     0x00000884      0x4eb arch/arm/lib/built-in.o
+                               0x11c6 (size before relaxing)
+ .debug_str     0x00000d6f       0x94 board/samsung/tiny210/built-in.o
+                                0x39f (size before relaxing)
+ .debug_str     0x00000e03      0x22b common/spl/built-in.o
+                                0x55f (size before relaxing)
+ .debug_str     0x0000102e       0x49 /home/joshua/Downloads/u-boot-2014.01_for_tiny210/spl/arch/arm/lib/eabi_compat.o
+                                0x256 (size before relaxing)
+
+.debug_loc      0x00000000     0x14da
+ .debug_loc     0x00000000      0x6ff arch/arm/cpu/armv7/built-in.o
+ .debug_loc     0x000006ff      0x699 arch/arm/cpu/armv7/s5pc1xx/built-in.o
+ .debug_loc     0x00000d98      0x63e arch/arm/lib/built-in.o
+ .debug_loc     0x000013d6       0x40 board/samsung/tiny210/built-in.o
+ .debug_loc     0x00001416       0xb1 common/spl/built-in.o
+ .debug_loc     0x000014c7       0x13 /home/joshua/Downloads/u-boot-2014.01_for_tiny210/spl/arch/arm/lib/eabi_compat.o
+
+.debug_pubtypes
+                0x00000000      0x6bf
+ .debug_pubtypes
+                0x00000000      0x16c arch/arm/cpu/armv7/built-in.o
+ .debug_pubtypes
+                0x0000016c       0x88 arch/arm/cpu/armv7/s5pc1xx/built-in.o
+ .debug_pubtypes
+                0x000001f4      0x2d9 arch/arm/lib/built-in.o
+ .debug_pubtypes
+                0x000004cd       0x91 board/samsung/tiny210/built-in.o
+ .debug_pubtypes
+                0x0000055e      0x10e common/spl/built-in.o
+ .debug_pubtypes
+                0x0000066c       0x53 /home/joshua/Downloads/u-boot-2014.01_for_tiny210/spl/arch/arm/lib/eabi_compat.o
+
+.debug_ranges   0x00000000      0x4f8
+ .debug_ranges  0x00000000      0x178 arch/arm/cpu/armv7/built-in.o
+ .debug_ranges  0x00000178      0x1b8 arch/arm/cpu/armv7/s5pc1xx/built-in.o
+ .debug_ranges  0x00000330      0x148 arch/arm/lib/built-in.o
+ .debug_ranges  0x00000478       0x30 board/samsung/tiny210/built-in.o
+ .debug_ranges  0x000004a8       0x30 common/spl/built-in.o
+ .debug_ranges  0x000004d8       0x20 /home/joshua/Downloads/u-boot-2014.01_for_tiny210/spl/arch/arm/lib/eabi_compat.o

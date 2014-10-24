@@ -1,0 +1,2 @@
+ctype.o: ctype.c \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/linux/ctype.h

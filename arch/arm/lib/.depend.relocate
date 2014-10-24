@@ -1,0 +1,3 @@
+relocate.o: relocate.S \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/linux/linkage.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/arch/arm/include/asm/linkage.h

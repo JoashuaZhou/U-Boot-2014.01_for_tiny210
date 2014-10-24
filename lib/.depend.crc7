@@ -1,0 +1,8 @@
+crc7.o: crc7.c \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/linux/types.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/linux/posix_types.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/linux/stddef.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/arch/arm/include/asm/posix_types.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/arch/arm/include/asm/types.h \
+ /opt/FriendlyARM/toolschain/4.5.1/lib/gcc/arm-none-linux-gnueabi/4.5.1/include/stdbool.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/linux/crc7.h

@@ -1,0 +1,825 @@
+env_embedded.o: \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/common/env_embedded.c \
+ /usr/include/stdc-predef.h /usr/include/i386-linux-gnu/bits/predefs.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/libfdt_env.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/compiler.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stddef.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h /usr/include/errno.h \
+ /usr/include/i386-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/i386-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h \
+ /usr/include/i386-linux-gnu/bits/byteswap-16.h /usr/include/xlocale.h \
+ /usr/include/i386-linux-gnu/sys/types.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/i386-linux-gnu/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
+ /usr/include/i386-linux-gnu/sys/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman.h /usr/include/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl-linux.h \
+ /usr/include/i386-linux-gnu/bits/uio.h \
+ /usr/include/i386-linux-gnu/bits/stat.h /usr/include/byteswap.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/linux/types.h \
+ /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
+ /usr/include/i386-linux-gnu/asm/posix_types.h \
+ /usr/include/i386-linux-gnu/asm/posix_types_32.h \
+ /usr/include/asm-generic/posix_types.h \
+ /usr/include/i386-linux-gnu/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h \
+ /usr/include/i386-linux-gnu/asm/types.h /usr/include/asm-generic/types.h \
+ /usr/include/asm-generic/int-ll64.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdbool.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/config.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/config_cmd_defaults.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/config_defaults.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/configs/tiny210.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/arch/arm/include/asm/arch/cpu.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/config_cmd_default.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/arch/arm/include/asm/config.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/config_fallbacks.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/config_uncmd_spl.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/environment.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/env_attr.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/env_callback.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/env_flags.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/linker_lists.h \
+ /usr/include/search.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/linux/stringify.h
+image.o: /home/joshua/Downloads/u-boot-2014.01_for_tiny210/common/image.c \
+ /usr/include/stdc-predef.h /usr/include/i386-linux-gnu/bits/predefs.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/libfdt_env.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/compiler.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stddef.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h /usr/include/errno.h \
+ /usr/include/i386-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/i386-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h \
+ /usr/include/i386-linux-gnu/bits/byteswap-16.h /usr/include/xlocale.h \
+ /usr/include/i386-linux-gnu/sys/types.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/i386-linux-gnu/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
+ /usr/include/i386-linux-gnu/sys/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman.h /usr/include/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl-linux.h \
+ /usr/include/i386-linux-gnu/bits/uio.h \
+ /usr/include/i386-linux-gnu/bits/stat.h /usr/include/byteswap.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/linux/types.h \
+ /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
+ /usr/include/i386-linux-gnu/asm/posix_types.h \
+ /usr/include/i386-linux-gnu/asm/posix_types_32.h \
+ /usr/include/asm-generic/posix_types.h \
+ /usr/include/i386-linux-gnu/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h \
+ /usr/include/i386-linux-gnu/asm/types.h /usr/include/asm-generic/types.h \
+ /usr/include/asm-generic/int-ll64.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdbool.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/tools/mkimage.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/tools/os_support.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/compiler.h \
+ /usr/include/i386-linux-gnu/sys/stat.h \
+ /usr/include/i386-linux-gnu/bits/timex.h /usr/include/unistd.h \
+ /usr/include/i386-linux-gnu/bits/posix_opt.h \
+ /usr/include/i386-linux-gnu/bits/environments.h \
+ /usr/include/i386-linux-gnu/bits/confname.h /usr/include/getopt.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/sha1.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/tools/fdt_host.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/tools/../include/libfdt.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/libfdt_env.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/fdt.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/tools/../include/fdt_support.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/tools/imagetool.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/u-boot/md5.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/image.h \
+ /usr/include/i386-linux-gnu/asm/byteorder.h \
+ /usr/include/linux/byteorder/little_endian.h /usr/include/linux/types.h \
+ /usr/include/linux/swab.h /usr/include/i386-linux-gnu/asm/swab.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/libfdt.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/fdt_support.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/u-boot/crc.h
+image-sig.o: \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/common/image-sig.c \
+ /usr/include/stdc-predef.h /usr/include/i386-linux-gnu/bits/predefs.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/libfdt_env.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/compiler.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stddef.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h /usr/include/errno.h \
+ /usr/include/i386-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/i386-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h \
+ /usr/include/i386-linux-gnu/bits/byteswap-16.h /usr/include/xlocale.h \
+ /usr/include/i386-linux-gnu/sys/types.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/i386-linux-gnu/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
+ /usr/include/i386-linux-gnu/sys/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman.h /usr/include/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl-linux.h \
+ /usr/include/i386-linux-gnu/bits/uio.h \
+ /usr/include/i386-linux-gnu/bits/stat.h /usr/include/byteswap.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/linux/types.h \
+ /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
+ /usr/include/i386-linux-gnu/asm/posix_types.h \
+ /usr/include/i386-linux-gnu/asm/posix_types_32.h \
+ /usr/include/asm-generic/posix_types.h \
+ /usr/include/i386-linux-gnu/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h \
+ /usr/include/i386-linux-gnu/asm/types.h /usr/include/asm-generic/types.h \
+ /usr/include/asm-generic/int-ll64.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdbool.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/tools/mkimage.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/tools/os_support.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/compiler.h \
+ /usr/include/i386-linux-gnu/sys/stat.h \
+ /usr/include/i386-linux-gnu/bits/timex.h /usr/include/unistd.h \
+ /usr/include/i386-linux-gnu/bits/posix_opt.h \
+ /usr/include/i386-linux-gnu/bits/environments.h \
+ /usr/include/i386-linux-gnu/bits/confname.h /usr/include/getopt.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/sha1.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/tools/fdt_host.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/tools/../include/libfdt.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/libfdt_env.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/fdt.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/tools/../include/fdt_support.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/tools/imagetool.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/image.h \
+ /usr/include/i386-linux-gnu/asm/byteorder.h \
+ /usr/include/linux/byteorder/little_endian.h /usr/include/linux/types.h \
+ /usr/include/linux/swab.h /usr/include/i386-linux-gnu/asm/swab.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/libfdt.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/fdt_support.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/rsa.h
+crc32.o: /home/joshua/Downloads/u-boot-2014.01_for_tiny210/lib/crc32.c \
+ /usr/include/stdc-predef.h /usr/include/i386-linux-gnu/bits/predefs.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/libfdt_env.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/compiler.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stddef.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h /usr/include/errno.h \
+ /usr/include/i386-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/i386-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h \
+ /usr/include/i386-linux-gnu/bits/byteswap-16.h /usr/include/xlocale.h \
+ /usr/include/i386-linux-gnu/sys/types.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/i386-linux-gnu/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
+ /usr/include/i386-linux-gnu/sys/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman.h /usr/include/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl-linux.h \
+ /usr/include/i386-linux-gnu/bits/uio.h \
+ /usr/include/i386-linux-gnu/bits/stat.h /usr/include/byteswap.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/linux/types.h \
+ /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
+ /usr/include/i386-linux-gnu/asm/posix_types.h \
+ /usr/include/i386-linux-gnu/asm/posix_types_32.h \
+ /usr/include/asm-generic/posix_types.h \
+ /usr/include/i386-linux-gnu/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h \
+ /usr/include/i386-linux-gnu/asm/types.h /usr/include/asm-generic/types.h \
+ /usr/include/asm-generic/int-ll64.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdbool.h \
+ /usr/include/arpa/inet.h /usr/include/netinet/in.h \
+ /usr/include/i386-linux-gnu/sys/socket.h \
+ /usr/include/i386-linux-gnu/sys/uio.h \
+ /usr/include/i386-linux-gnu/bits/socket.h \
+ /usr/include/i386-linux-gnu/bits/socket_type.h \
+ /usr/include/i386-linux-gnu/bits/sockaddr.h \
+ /usr/include/i386-linux-gnu/asm/socket.h \
+ /usr/include/asm-generic/socket.h \
+ /usr/include/i386-linux-gnu/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h /usr/include/i386-linux-gnu/bits/in.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/compiler.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/u-boot/crc.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/u-boot/zlib.h
+md5.o: /home/joshua/Downloads/u-boot-2014.01_for_tiny210/lib/md5.c \
+ /usr/include/stdc-predef.h /usr/include/i386-linux-gnu/bits/predefs.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/libfdt_env.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/compiler.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stddef.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h /usr/include/errno.h \
+ /usr/include/i386-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/i386-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h \
+ /usr/include/i386-linux-gnu/bits/byteswap-16.h /usr/include/xlocale.h \
+ /usr/include/i386-linux-gnu/sys/types.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/i386-linux-gnu/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
+ /usr/include/i386-linux-gnu/sys/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman.h /usr/include/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl-linux.h \
+ /usr/include/i386-linux-gnu/bits/uio.h \
+ /usr/include/i386-linux-gnu/bits/stat.h /usr/include/byteswap.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/linux/types.h \
+ /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
+ /usr/include/i386-linux-gnu/asm/posix_types.h \
+ /usr/include/i386-linux-gnu/asm/posix_types_32.h \
+ /usr/include/asm-generic/posix_types.h \
+ /usr/include/i386-linux-gnu/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h \
+ /usr/include/i386-linux-gnu/asm/types.h /usr/include/asm-generic/types.h \
+ /usr/include/asm-generic/int-ll64.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdbool.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/compiler.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/u-boot/md5.h
+sha1.o: /home/joshua/Downloads/u-boot-2014.01_for_tiny210/lib/sha1.c \
+ /usr/include/stdc-predef.h /usr/include/i386-linux-gnu/bits/predefs.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/libfdt_env.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/compiler.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stddef.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h /usr/include/errno.h \
+ /usr/include/i386-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/i386-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h \
+ /usr/include/i386-linux-gnu/bits/byteswap-16.h /usr/include/xlocale.h \
+ /usr/include/i386-linux-gnu/sys/types.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/i386-linux-gnu/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
+ /usr/include/i386-linux-gnu/sys/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman.h /usr/include/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl-linux.h \
+ /usr/include/i386-linux-gnu/bits/uio.h \
+ /usr/include/i386-linux-gnu/bits/stat.h /usr/include/byteswap.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/linux/types.h \
+ /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
+ /usr/include/i386-linux-gnu/asm/posix_types.h \
+ /usr/include/i386-linux-gnu/asm/posix_types_32.h \
+ /usr/include/asm-generic/posix_types.h \
+ /usr/include/i386-linux-gnu/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h \
+ /usr/include/i386-linux-gnu/asm/types.h /usr/include/asm-generic/types.h \
+ /usr/include/asm-generic/int-ll64.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdbool.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/watchdog.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/sha1.h
+envcrc.o: \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/tools/envcrc.c \
+ /usr/include/stdc-predef.h /usr/include/i386-linux-gnu/bits/predefs.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/libfdt_env.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/compiler.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stddef.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h /usr/include/errno.h \
+ /usr/include/i386-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/i386-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h \
+ /usr/include/i386-linux-gnu/bits/byteswap-16.h /usr/include/xlocale.h \
+ /usr/include/i386-linux-gnu/sys/types.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/i386-linux-gnu/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
+ /usr/include/i386-linux-gnu/sys/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman.h /usr/include/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl-linux.h \
+ /usr/include/i386-linux-gnu/bits/uio.h \
+ /usr/include/i386-linux-gnu/bits/stat.h /usr/include/byteswap.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/linux/types.h \
+ /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
+ /usr/include/i386-linux-gnu/asm/posix_types.h \
+ /usr/include/i386-linux-gnu/asm/posix_types_32.h \
+ /usr/include/asm-generic/posix_types.h \
+ /usr/include/i386-linux-gnu/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h \
+ /usr/include/i386-linux-gnu/asm/types.h /usr/include/asm-generic/types.h \
+ /usr/include/asm-generic/int-ll64.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdbool.h /usr/include/unistd.h \
+ /usr/include/i386-linux-gnu/bits/posix_opt.h \
+ /usr/include/i386-linux-gnu/bits/environments.h \
+ /usr/include/i386-linux-gnu/bits/confname.h /usr/include/getopt.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/config.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/config_cmd_defaults.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/config_defaults.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/configs/tiny210.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/arch/arm/include/asm/arch/cpu.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/config_cmd_default.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/arch/arm/include/asm/config.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/config_fallbacks.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/config_uncmd_spl.h
+img2srec.o: \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/tools/img2srec.c \
+ /usr/include/stdc-predef.h /usr/include/i386-linux-gnu/bits/predefs.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/libfdt_env.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/compiler.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stddef.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h /usr/include/errno.h \
+ /usr/include/i386-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/i386-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h \
+ /usr/include/i386-linux-gnu/bits/byteswap-16.h /usr/include/xlocale.h \
+ /usr/include/i386-linux-gnu/sys/types.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/i386-linux-gnu/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
+ /usr/include/i386-linux-gnu/sys/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman.h /usr/include/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl-linux.h \
+ /usr/include/i386-linux-gnu/bits/uio.h \
+ /usr/include/i386-linux-gnu/bits/stat.h /usr/include/byteswap.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/linux/types.h \
+ /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
+ /usr/include/i386-linux-gnu/asm/posix_types.h \
+ /usr/include/i386-linux-gnu/asm/posix_types_32.h \
+ /usr/include/asm-generic/posix_types.h \
+ /usr/include/i386-linux-gnu/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h \
+ /usr/include/i386-linux-gnu/asm/types.h /usr/include/asm-generic/types.h \
+ /usr/include/asm-generic/int-ll64.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdbool.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/tools/os_support.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/compiler.h \
+ /usr/include/ctype.h /usr/include/elf.h /usr/include/unistd.h \
+ /usr/include/i386-linux-gnu/bits/posix_opt.h \
+ /usr/include/i386-linux-gnu/bits/environments.h \
+ /usr/include/i386-linux-gnu/bits/confname.h /usr/include/getopt.h
+gen_eth_addr.o: \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/tools/gen_eth_addr.c \
+ /usr/include/stdc-predef.h /usr/include/i386-linux-gnu/bits/predefs.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/libfdt_env.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/compiler.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stddef.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h /usr/include/errno.h \
+ /usr/include/i386-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/i386-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h \
+ /usr/include/i386-linux-gnu/bits/byteswap-16.h /usr/include/xlocale.h \
+ /usr/include/i386-linux-gnu/sys/types.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/i386-linux-gnu/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
+ /usr/include/i386-linux-gnu/sys/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman.h /usr/include/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl-linux.h \
+ /usr/include/i386-linux-gnu/bits/uio.h \
+ /usr/include/i386-linux-gnu/bits/stat.h /usr/include/byteswap.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/linux/types.h \
+ /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
+ /usr/include/i386-linux-gnu/asm/posix_types.h \
+ /usr/include/i386-linux-gnu/asm/posix_types_32.h \
+ /usr/include/asm-generic/posix_types.h \
+ /usr/include/i386-linux-gnu/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h \
+ /usr/include/i386-linux-gnu/asm/types.h /usr/include/asm-generic/types.h \
+ /usr/include/asm-generic/int-ll64.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdbool.h /usr/include/unistd.h \
+ /usr/include/i386-linux-gnu/bits/posix_opt.h \
+ /usr/include/i386-linux-gnu/bits/environments.h \
+ /usr/include/i386-linux-gnu/bits/confname.h /usr/include/getopt.h \
+ /usr/include/i386-linux-gnu/bits/timex.h
+fdt.o: /home/joshua/Downloads/u-boot-2014.01_for_tiny210/lib/libfdt/fdt.c \
+ /usr/include/stdc-predef.h /usr/include/i386-linux-gnu/bits/predefs.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/libfdt_env.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/compiler.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stddef.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h /usr/include/errno.h \
+ /usr/include/i386-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/i386-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h \
+ /usr/include/i386-linux-gnu/bits/byteswap-16.h /usr/include/xlocale.h \
+ /usr/include/i386-linux-gnu/sys/types.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/i386-linux-gnu/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
+ /usr/include/i386-linux-gnu/sys/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman.h /usr/include/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl-linux.h \
+ /usr/include/i386-linux-gnu/bits/uio.h \
+ /usr/include/i386-linux-gnu/bits/stat.h /usr/include/byteswap.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/linux/types.h \
+ /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
+ /usr/include/i386-linux-gnu/asm/posix_types.h \
+ /usr/include/i386-linux-gnu/asm/posix_types_32.h \
+ /usr/include/asm-generic/posix_types.h \
+ /usr/include/i386-linux-gnu/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h \
+ /usr/include/i386-linux-gnu/asm/types.h /usr/include/asm-generic/types.h \
+ /usr/include/asm-generic/int-ll64.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdbool.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/libfdt_env.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/tools/fdt_host.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/tools/../include/libfdt.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/fdt.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/tools/../include/fdt_support.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/lib/libfdt/libfdt_internal.h
+fdt_ro.o: \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/lib/libfdt/fdt_ro.c \
+ /usr/include/stdc-predef.h /usr/include/i386-linux-gnu/bits/predefs.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/libfdt_env.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/compiler.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stddef.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h /usr/include/errno.h \
+ /usr/include/i386-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/i386-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h \
+ /usr/include/i386-linux-gnu/bits/byteswap-16.h /usr/include/xlocale.h \
+ /usr/include/i386-linux-gnu/sys/types.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/i386-linux-gnu/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
+ /usr/include/i386-linux-gnu/sys/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman.h /usr/include/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl-linux.h \
+ /usr/include/i386-linux-gnu/bits/uio.h \
+ /usr/include/i386-linux-gnu/bits/stat.h /usr/include/byteswap.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/linux/types.h \
+ /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
+ /usr/include/i386-linux-gnu/asm/posix_types.h \
+ /usr/include/i386-linux-gnu/asm/posix_types_32.h \
+ /usr/include/asm-generic/posix_types.h \
+ /usr/include/i386-linux-gnu/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h \
+ /usr/include/i386-linux-gnu/asm/types.h /usr/include/asm-generic/types.h \
+ /usr/include/asm-generic/int-ll64.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdbool.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/libfdt_env.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/tools/fdt_host.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/tools/../include/libfdt.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/fdt.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/tools/../include/fdt_support.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/lib/libfdt/libfdt_internal.h
+fdt_rw.o: \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/lib/libfdt/fdt_rw.c \
+ /usr/include/stdc-predef.h /usr/include/i386-linux-gnu/bits/predefs.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/libfdt_env.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/compiler.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stddef.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h /usr/include/errno.h \
+ /usr/include/i386-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/i386-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h \
+ /usr/include/i386-linux-gnu/bits/byteswap-16.h /usr/include/xlocale.h \
+ /usr/include/i386-linux-gnu/sys/types.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/i386-linux-gnu/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
+ /usr/include/i386-linux-gnu/sys/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman.h /usr/include/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl-linux.h \
+ /usr/include/i386-linux-gnu/bits/uio.h \
+ /usr/include/i386-linux-gnu/bits/stat.h /usr/include/byteswap.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/linux/types.h \
+ /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
+ /usr/include/i386-linux-gnu/asm/posix_types.h \
+ /usr/include/i386-linux-gnu/asm/posix_types_32.h \
+ /usr/include/asm-generic/posix_types.h \
+ /usr/include/i386-linux-gnu/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h \
+ /usr/include/i386-linux-gnu/asm/types.h /usr/include/asm-generic/types.h \
+ /usr/include/asm-generic/int-ll64.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdbool.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/libfdt_env.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/tools/fdt_host.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/tools/../include/libfdt.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/fdt.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/tools/../include/fdt_support.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/lib/libfdt/libfdt_internal.h
+fdt_strerror.o: \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/lib/libfdt/fdt_strerror.c \
+ /usr/include/stdc-predef.h /usr/include/i386-linux-gnu/bits/predefs.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/libfdt_env.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/compiler.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stddef.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h /usr/include/errno.h \
+ /usr/include/i386-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/i386-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h \
+ /usr/include/i386-linux-gnu/bits/byteswap-16.h /usr/include/xlocale.h \
+ /usr/include/i386-linux-gnu/sys/types.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/i386-linux-gnu/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
+ /usr/include/i386-linux-gnu/sys/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman.h /usr/include/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl-linux.h \
+ /usr/include/i386-linux-gnu/bits/uio.h \
+ /usr/include/i386-linux-gnu/bits/stat.h /usr/include/byteswap.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/linux/types.h \
+ /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
+ /usr/include/i386-linux-gnu/asm/posix_types.h \
+ /usr/include/i386-linux-gnu/asm/posix_types_32.h \
+ /usr/include/asm-generic/posix_types.h \
+ /usr/include/i386-linux-gnu/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h \
+ /usr/include/i386-linux-gnu/asm/types.h /usr/include/asm-generic/types.h \
+ /usr/include/asm-generic/int-ll64.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdbool.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/libfdt_env.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/tools/fdt_host.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/tools/../include/libfdt.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/fdt.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/tools/../include/fdt_support.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/lib/libfdt/libfdt_internal.h
+fdt_wip.o: \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/lib/libfdt/fdt_wip.c \
+ /usr/include/stdc-predef.h /usr/include/i386-linux-gnu/bits/predefs.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/libfdt_env.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/compiler.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stddef.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h /usr/include/errno.h \
+ /usr/include/i386-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/i386-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h \
+ /usr/include/i386-linux-gnu/bits/byteswap-16.h /usr/include/xlocale.h \
+ /usr/include/i386-linux-gnu/sys/types.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/i386-linux-gnu/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
+ /usr/include/i386-linux-gnu/sys/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman.h /usr/include/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl-linux.h \
+ /usr/include/i386-linux-gnu/bits/uio.h \
+ /usr/include/i386-linux-gnu/bits/stat.h /usr/include/byteswap.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/linux/types.h \
+ /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
+ /usr/include/i386-linux-gnu/asm/posix_types.h \
+ /usr/include/i386-linux-gnu/asm/posix_types_32.h \
+ /usr/include/asm-generic/posix_types.h \
+ /usr/include/i386-linux-gnu/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h \
+ /usr/include/i386-linux-gnu/asm/types.h /usr/include/asm-generic/types.h \
+ /usr/include/asm-generic/int-ll64.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdbool.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/libfdt_env.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/tools/fdt_host.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/tools/../include/libfdt.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/include/fdt.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/tools/../include/fdt_support.h \
+ /home/joshua/Downloads/u-boot-2014.01_for_tiny210/lib/libfdt/libfdt_internal.h
